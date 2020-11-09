@@ -37,7 +37,7 @@ def calculate_salary(array):
       if 1081 <= minuter <=1440:
         salary += 20*delta_t
     elif i[:2]=='SA' or i[:2]=='SU' :
-      #01:00-09:00
+      #00:01-09:00
       if 1 <= minuter  <= 540 :
         salary += 30*delta_t
       #09:01-18:00
