@@ -36,3 +36,11 @@ Please, Enter the file: file.txt
 The amount to pay  RENE is: 215 USD
 The amount to pay  ASTRID is: 85 USD
 ``` 
+```
+PS C:\Users\Christian Guerrero\Desktop\IOET> python testcases.py    
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+OK 
+``` 
