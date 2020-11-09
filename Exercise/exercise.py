@@ -1,12 +1,15 @@
-
 '''
 Function that return the data from a file
 @Parameter: name's file
 '''
 def readFile(file_name):
-    fp = open(file_name, "r")
-    lines = fp.readlines()
-    fp.close()
+    try:
+      fp = open(file_name, "r")
+      lines = fp.readlines()
+      fp.close()
+    except Exception as e:
+      print("The file doesn't exist")
+      return -1
     return lines
 
 
@@ -60,3 +63,11 @@ Function that return hours in minutes
 '''
 def totalHoursToMinutes(hours,mins):
   return hours*60 + mins
+
+
+
+def help_message():
+  print()
+  print("This a help message..")
+  print("You should put a exists file in the local directory")
+

@@ -2,6 +2,7 @@ import unittest
 import Exercise.exercise as e
 
 class TestStringMethods(unittest.TestCase):
+
     def test_openFile(self):
         lista = e.readFile("FILE.TXT") 
         if lista == None:
@@ -12,7 +13,6 @@ class TestStringMethods(unittest.TestCase):
     def test_ConvertHourInMinutes(self):
         number = e.totalHoursToMinutes(0,0)
         self.assertEqual(number,0)
-
 
     def test_salary(self):
         times1 = ['MO10:00-12:00','TH12:00-14:00','SU20:00-21:00']

@@ -14,5 +14,11 @@ El enfoque utilice para realizar esta prueba fue la de poder transformar las hor
 La metodoia que utilice para el ejercicio
 
 ## Instructions
-
-Para probar la ejecucion del programa
+If you want to execute the exercise
+``` 
+python main.py 
+``` 
+If you want to execute the testcases
+``` 
+python testcases.py
+```
