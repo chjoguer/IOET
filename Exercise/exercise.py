@@ -29,28 +29,22 @@ def calculate_salary(array):
     if i[:2] == 'MO' or i[:2] == 'TU' or i[:2] == 'WE' or i[:2] == 'TH' or i[:2] == 'FR':
       #00:01-09:00
       if 1 <= minuter  <= 540 :
-        print("$25: ",delta_t)
         salary += 25*delta_t
       #09:01-18:00
       if 541 <= minuter  <= 1080:
-        print("$15: ",delta_t)
         salary += 15*delta_t
       #18:01-00:00
       if 1081 <= minuter <=1440:
-        print("$20: ",delta_t)
         salary += 20*delta_t
     elif i[:2]=='SA' or i[:2]=='SU' :
       #01:00-09:00
       if 1 <= minuter  <= 540 :
-        print("$30: ",delta_t)
         salary += 30*delta_t
       #09:01-18:00
       if 541 <= minuter  <= 1080:
-        print("$20: ",delta_t)
         salary += 20*delta_t
       #18:01-00:00
       if 1081 <= minuter <=1440:
-        print("$25: ",delta_t)
         salary += 25*delta_t  
 
   return salary
@@ -69,5 +63,5 @@ def totalHoursToMinutes(hours,mins):
 def help_message():
   print()
   print("This a help message..")
-  print("You should put a exists file in the local directory")
+  print("You should put a file in the local directory or use the default file 'file.txt' ")
 
