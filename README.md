@@ -31,13 +31,19 @@ python testcases.py
 ```
 ## Example
 ``` 
-C:\Users\Christian Guerrero\Desktop\IOET> python main.py 
+>C:\Users\Christian Guerrero\Desktop\IOET> python main.py 
 Please, Enter the file: file.txt
+The amount to pay  LUIS is: 245 USD
+The amount to pay  ALONSO is: 140 USD
+The amount to pay  SECH is: 195 USD
+The amount to pay  CHRISTIAN is: 85 USD
+The amount to pay  JOEL is: 90 USD
+The amount to pay  CAROLINA is: 240 USD
 The amount to pay  RENE is: 215 USD
 The amount to pay  ASTRID is: 85 USD
 ``` 
 ```
-PS C:\Users\Christian Guerrero\Desktop\IOET> python testcases.py    
+>C:\Users\Christian Guerrero\Desktop\IOET> python testcases.py    
 ....
 ----------------------------------------------------------------------
 Ran 4 tests in 0.002s
